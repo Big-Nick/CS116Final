@@ -1,0 +1,81 @@
+1 is the ID. 	0 is the time. 	1 is the event number. 	1 is the ID	Glen Ellyn Chevrolet is the dealership.
+8 is the ID. 	47 is the time. 	2 is the event number. 	11 is the ID	Saturn of North Chicago is the dealership.
+6 is the ID. 	59 is the time. 	3 is the event number. 	2 is the ID	Glen Ellyn Chevrolet is the dealership.
+3 is the ID. 	84 is the time. 	4 is the event number. 	22 is the ID	Chicago Buick is the dealership.
+10 is the ID. 	106 is the time. 	5 is the event number. 	3 is the ID	Schaumburg Cadillac is the dealership.
+2 is the ID. 	124 is the time. 	6 is the event number. 	25 is the ID	Chicago Buick is the dealership.
+4 is the ID. 	223 is the time. 	7 is the event number. 	20 is the ID	Chicago Buick is the dealership.
+7 is the ID. 	400 is the time. 	10 is the event number. 	16 is the ID	South Suburbs Pontiac is the dealership.
+9 is the ID. 	468 is the time. 	13 is the event number. 	12 is the ID	South Suburbs Pontiac is the dealership.
+5 is the ID. 	511 is the time. 	14 is the event number. 	9 is the ID	Glen Ellyn Chevrolet is the dealership.
+The exception: MatchNotFoundException was thrown 4 times.
+The exception: RepeatNumberException  was thrown 0 times.
+8 is the ID. 	0 is the time. 	1 is the event number. 	4 is the ID	Schaumburg Cadillac is the dealership.
+1 is the ID. 	76 is the time. 	2 is the event number. 	5 is the ID	Glen Ellyn Chevrolet is the dealership.
+6 is the ID. 	249 is the time. 	6 is the event number. 	1 is the ID	Schaumburg Cadillac is the dealership.
+10 is the ID. 	325 is the time. 	7 is the event number. 	23 is the ID	Chicago Buick is the dealership.
+4 is the ID. 	335 is the time. 	8 is the event number. 	25 is the ID	Chicago Buick is the dealership.
+5 is the ID. 	349 is the time. 	9 is the event number. 	20 is the ID	Chicago Buick is the dealership.
+7 is the ID. 	411 is the time. 	10 is the event number. 	14 is the ID	Saturn of North Chicago is the dealership.
+2 is the ID. 	653 is the time. 	13 is the event number. 	2 is the ID	Glen Ellyn Chevrolet is the dealership.
+9 is the ID. 	821 is the time. 	16 is the event number. 	12 is the ID	Saturn of North Chicago is the dealership.
+3 is the ID. 	907 is the time. 	20 is the event number. 	11 is the ID	Saturn of North Chicago is the dealership.
+The exception: MatchNotFoundException was thrown 8 times.
+The exception: RepeatNumberException  was thrown 2 times.
+2 is the ID. 	0 is the time. 	1 is the event number. 	11 is the ID	South Suburbs Pontiac is the dealership.
+8 is the ID. 	27 is the time. 	2 is the event number. 	23 is the ID	Chicago Buick is the dealership.
+1 is the ID. 	59 is the time. 	3 is the event number. 	20 is the ID	Chicago Buick is the dealership.
+10 is the ID. 	308 is the time. 	7 is the event number. 	2 is the ID	Schaumburg Cadillac is the dealership.
+6 is the ID. 	401 is the time. 	8 is the event number. 	1 is the ID	Glen Ellyn Chevrolet is the dealership.
+9 is the ID. 	489 is the time. 	10 is the event number. 	22 is the ID	Chicago Buick is the dealership.
+3 is the ID. 	621 is the time. 	12 is the event number. 	3 is the ID	Glen Ellyn Chevrolet is the dealership.
+4 is the ID. 	905 is the time. 	16 is the event number. 	17 is the ID	South Suburbs Pontiac is the dealership.
+7 is the ID. 	1095 is the time. 	21 is the event number. 	5 is the ID	Glen Ellyn Chevrolet is the dealership.
+5 is the ID. 	1220 is the time. 	23 is the event number. 	14 is the ID	South Suburbs Pontiac is the dealership.
+The exception: MatchNotFoundException was thrown 9 times.
+The exception: RepeatNumberException  was thrown 4 times.
+1 is the ID. 	0 is the time. 	1 is the event number. 	4 is the ID	Schaumburg Cadillac is the dealership.
+8 is the ID. 	57 is the time. 	4 is the event number. 	7 is the ID	Glen Ellyn Chevrolet is the dealership.
+9 is the ID. 	109 is the time. 	6 is the event number. 	12 is the ID	Saturn of North Chicago is the dealership.
+6 is the ID. 	363 is the time. 	11 is the event number. 	21 is the ID	Chicago Buick is the dealership.
+3 is the ID. 	393 is the time. 	12 is the event number. 	22 is the ID	Chicago Buick is the dealership.
+4 is the ID. 	428 is the time. 	13 is the event number. 	14 is the ID	Saturn of North Chicago is the dealership.
+7 is the ID. 	449 is the time. 	15 is the event number. 	16 is the ID	South Suburbs Pontiac is the dealership.
+5 is the ID. 	973 is the time. 	26 is the event number. 	11 is the ID	Saturn of North Chicago is the dealership.
+2 is the ID. 	979 is the time. 	27 is the event number. 	17 is the ID	South Suburbs Pontiac is the dealership.
+10 is the ID. 	986 is the time. 	28 is the event number. 	18 is the ID	South Suburbs Pontiac is the dealership.
+The exception: MatchNotFoundException was thrown 15 times.
+The exception: RepeatNumberException  was thrown 3 times.
+1 is the ID. 	0 is the time. 	1 is the event number. 	6 is the ID	Schaumburg Cadillac is the dealership.
+8 is the ID. 	69 is the time. 	2 is the event number. 	12 is the ID	Saturn of North Chicago is the dealership.
+7 is the ID. 	132 is the time. 	3 is the event number. 	2 is the ID	Schaumburg Cadillac is the dealership.
+2 is the ID. 	221 is the time. 	4 is the event number. 	24 is the ID	Chicago Buick is the dealership.
+9 is the ID. 	297 is the time. 	5 is the event number. 	11 is the ID	South Suburbs Pontiac is the dealership.
+10 is the ID. 	333 is the time. 	6 is the event number. 	3 is the ID	Glen Ellyn Chevrolet is the dealership.
+5 is the ID. 	410 is the time. 	7 is the event number. 	21 is the ID	Chicago Buick is the dealership.
+4 is the ID. 	507 is the time. 	9 is the event number. 	4 is the ID	Glen Ellyn Chevrolet is the dealership.
+6 is the ID. 	525 is the time. 	11 is the event number. 	1 is the ID	Glen Ellyn Chevrolet is the dealership.
+3 is the ID. 	621 is the time. 	12 is the event number. 	7 is the ID	Glen Ellyn Chevrolet is the dealership.
+The exception: MatchNotFoundException was thrown 0 times.
+The exception: RepeatNumberException  was thrown 2 times.
+10 is the ID. 	0 is the time. 	1 is the event number. 	11 is the ID	Saturn of North Chicago is the dealership.
+8 is the ID. 	69 is the time. 	2 is the event number. 	2 is the ID	Schaumburg Cadillac is the dealership.
+9 is the ID. 	118 is the time. 	3 is the event number. 	15 is the ID	South Suburbs Pontiac is the dealership.
+4 is the ID. 	175 is the time. 	4 is the event number. 	22 is the ID	Chicago Buick is the dealership.
+6 is the ID. 	258 is the time. 	5 is the event number. 	7 is the ID	Glen Ellyn Chevrolet is the dealership.
+7 is the ID. 	304 is the time. 	6 is the event number. 	20 is the ID	Chicago Buick is the dealership.
+2 is the ID. 	336 is the time. 	8 is the event number. 	13 is the ID	Saturn of North Chicago is the dealership.
+5 is the ID. 	496 is the time. 	12 is the event number. 	8 is the ID	Saturn of North Chicago is the dealership.
+3 is the ID. 	560 is the time. 	14 is the event number. 	3 is the ID	Glen Ellyn Chevrolet is the dealership.
+1 is the ID. 	661 is the time. 	16 is the event number. 	17 is the ID	South Suburbs Pontiac is the dealership.
+The exception: MatchNotFoundException was thrown 4 times.
+The exception: RepeatNumberException  was thrown 2 times.
+7 is the ID. 	0 is the time. 	1 is the event number. 	2 is the ID	Glen Ellyn Chevrolet is the dealership.
+10 is the ID. 	89 is the time. 	3 is the event number. 	4 is the ID	Glen Ellyn Chevrolet is the dealership.
+5 is the ID. 	152 is the time. 	4 is the event number. 	24 is the ID	Chicago Buick is the dealership.
+1 is the ID. 	260 is the time. 	6 is the event number. 	20 is the ID	Chicago Buick is the dealership.
+6 is the ID. 	278 is the time. 	7 is the event number. 	6 is the ID	Schaumburg Cadillac is the dealership.
+8 is the ID. 	398 is the time. 	13 is the event number. 	15 is the ID	South Suburbs Pontiac is the dealership.
+9 is the ID. 	450 is the time. 	14 is the event number. 	13 is the ID	South Suburbs Pontiac is the dealership.
+The exception: MatchNotFoundException was thrown 8 times.
+The exception: RepeatNumberException  was thrown 1 times.
