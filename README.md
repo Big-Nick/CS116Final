@@ -3,7 +3,7 @@
 ##Example final project for a Java class I both took and was a teaching assistant for.
 
 
-![Why are there no arrows???](Diagram tree.bmp)
+![Why are there no arrows???](Diagram tree.jpg)
 
 ###Requirements
 - Multiple examples of inheritance
@@ -42,12 +42,12 @@ To test your program for correct output try first by limiting the lottery events
 This project is a game based on a lottery used by the vehicle manufacturer (GM) and its car dealerships, that awards free cars to customers as a marketing technique. There are 5 GM dealerships that have issued lottery tickets to a total of 25 prospective customers. GM has made available 10 vehicles to be awarded by the dealerships to those customers. 
  The customers have been awarded lottery ticket numbers in advance of the lottery process. The ticket numbers have been selected by the dealerships and are recorded as part of the customer information. The customers have been categorized by the dealerships in various customer types. The process of giving a vehicle to a customer is as follows:
 First GM has to assign the vehicle to a dealership. GM uses a lottery system to award the vehicles to one of the 5 dealerships based on a uniform probability in selecting one of the 5 dealerships each time a car is to be awarded. 
-The limits of the distribution should be 1 to 5 (int types), where the number 1 represents  dealership “Glen Ellyn Chevrolet ”, the number 2 represents “South Suburbs Pontiac”, the number 3 represents “Chicago Buick”, the number 4 represents Schaumburg Cadillac”, and the number 5 represents “Saturn Of North Chicago”. 
+The limits of the distribution should be 1 to 5 (int types), where the number 1 represents  dealership ï¿½Glen Ellyn Chevrolet ï¿½, the number 2 represents ï¿½South Suburbs Pontiacï¿½, the number 3 represents ï¿½Chicago Buickï¿½, the number 4 represents Schaumburg Cadillacï¿½, and the number 5 represents ï¿½Saturn Of North Chicagoï¿½. 
 The selected dealership is given one of the 10 cars from the file Vehicle.ser (this file is explained further down). 
 The vehicle selected randomly using uniform probability, from the available pool of 10 cars and subtracted from the available list until the list is of zero size. Note: DO NOT AWARD THE CARS SEQUENCIALLY !
  Every time a dealership is selected by GM, the dealership decides on the awarding of the car it received (one of the 10 vehicles is given to that dealership) to a customer. 
 Notice that the dealership IS NOT restricting the lottery numbers to its own customers only. Any customer (even from another dealership has a chance). 
-Each dealership, however, uses a lottery probability of their choice to favor or disfavor a certain type of customers (explained under Dealerships below). The dealership draws a number based on certain probability (probabilities are described further down in this document) and tries to match the drawn number to a customer’s lottery ticket number. If a match is found the customer wins the car. If no match is found :
+Each dealership, however, uses a lottery probability of their choice to favor or disfavor a certain type of customers (explained under Dealerships below). The dealership draws a number based on certain probability (probabilities are described further down in this document) and tries to match the drawn number to a customerï¿½s lottery ticket number. If a match is found the customer wins the car. If no match is found :
 A MatchNotFoundException occurs (the exception class must be implemented and caught properly in order to receive credit for this functionality).
 The process is repeated starting with the GM selecting a new dealership when this exception is thrown. 
 Count how many times this exception was thrown.
@@ -57,7 +57,7 @@ The process is repeated starting with the GM selecting a new dealership when thi
 Count how many times this exception was thrown.
 
 Generating the Input data 
-The customers participating in the game are recorded by the program as serializable objects in a file Customer.ser for security reasons (can’t be read by a human).  Therefore, the customer objects are prepared programmatically and are recorded in a serializable format in the file Customer.ser. The Customer objects can be read off the file Customer.ser when needed and transferred to a data structure of your choice (array, ArrayList or Vector). 
+The customers participating in the game are recorded by the program as serializable objects in a file Customer.ser for security reasons (canï¿½t be read by a human).  Therefore, the customer objects are prepared programmatically and are recorded in a serializable format in the file Customer.ser. The Customer objects can be read off the file Customer.ser when needed and transferred to a data structure of your choice (array, ArrayList or Vector). 
 The vehicles to be awarded are also recorded by the program as serializable objects in a file Vehicle.ser and read off that file when needed and transferred to a data structure of your choice.
 The car dealerships are also recorded as serializable objects in a file Dealership.ser and can be read off that file when needed and transferred to a data structure of your choice.
 Therefore you must have the proper classes and methods somewhere that allow you to create these .ser files (besides having the proper serializable service classes).
@@ -93,7 +93,7 @@ SPORT, 8, 1, 0, 0
 SPORT, 8, 1, 0, 0
 MINI_VAN, 10, 1, 0, 0
 The first information is the VehicleType, the second is the acceleration of the vehicle, the third is the time run (for the purpose of calculating velocity and distance if requested) , the fourth is the initial velocity and the last number is the initial distance.
-Notice that the class VehicleA and an extra enum class called ShapeTypes are provided on eth web site, therfor eyou don’t have to produce your own code for those two classes.
+Notice that the class VehicleA and an extra enum class called ShapeTypes are provided on eth web site, therfor eyou donï¿½t have to produce your own code for those two classes.
 Customer Information:
 Customer Types are: A, B, C, D, E. and they are enumerated in an enumeration class. 
 A customer object should have the first name, the last name, and the lottery number held by the customer as attributes as a minimum besides other attributes that you may want to include.
@@ -124,14 +124,14 @@ The following information is used to create Customer objects which are then reco
 	"John8","Dow8", 8
 	"John9", "Dow9", 9
 	"John10","Dow10", 10
-	“John11”, “Dow11”, 20
-	“John12”,  “Dow12”, 21
-	“John13”,  “Dow13”, 22
-	“John14”,  “Dow14”, 23
-	“John15”,  “Dow15”, 24
-	“John16”,  “Dow16”, 36
-	“John17”,  “Dow17”, 37
-	“John18”, “Dow18", 38
+	ï¿½John11ï¿½, ï¿½Dow11ï¿½, 20
+	ï¿½John12ï¿½,  ï¿½Dow12ï¿½, 21
+	ï¿½John13ï¿½,  ï¿½Dow13ï¿½, 22
+	ï¿½John14ï¿½,  ï¿½Dow14ï¿½, 23
+	ï¿½John15ï¿½,  ï¿½Dow15ï¿½, 24
+	ï¿½John16ï¿½,  ï¿½Dow16ï¿½, 36
+	ï¿½John17ï¿½,  ï¿½Dow17ï¿½, 37
+	ï¿½John18ï¿½, ï¿½Dow18", 38
 	"John19", "Dow19", 39
 	"John20","Dow20", 40
 	"John21","Dow21", 41
@@ -143,19 +143,19 @@ The following information is used to create Customer objects which are then reco
 	
 Dealership Information:
 Dealership Types are (GM products): CHEVROLET, PONTIAC, BUICK, CADILLAC, SATURN and they are also enumerated in an enumeration class.
-You can decide on the attributes of a Dealership but the constructor should take as arguments the name of the dealership and the DealershipType. The dealership names can have attain values like “Chicago Buick”, “Glen Ellyn Chevrolet” etc (see below).
+You can decide on the attributes of a Dealership but the constructor should take as arguments the name of the dealership and the DealershipType. The dealership names can have attain values like ï¿½Chicago Buickï¿½, ï¿½Glen Ellyn Chevroletï¿½ etc (see below).
 Each dealership draws a lottery number according to the following probabilities and sets the ticket number accordingly. The probability functions will have to be set with the proper limits based on the descriptions below. Since a non winning number could come up (in other words that number has not been assigned to a customer as a lottery ticket) GM repeats the lottery process by choosing a dealership:
-Dealership “Chicago Buick” uses uniform probability to draw a lottery ticket number. The range is 1 to 40. Therefore there are more numbers than people and vehicles and some numbers are loosing numbers. 
-“Glen Ellyn Chevrolet” uses exponential probability. The average is set to favor customers in categories A and B. Remember the position of the customer objects and their types in file People.ser.and their lottery tickets numbers that have been given to them.
-“Saturn of North Chicago” uses Gaussian (normal) probability and the average and the standard deviation is set to favor people of type D and E.
-“South Suburbs Pontiac” uses uniform probability to draw numbers out of a pool of 20 numbers (1-20).
-“Schaumburg Cadillac” uses Gaussian (normal) probability. The average and standard deviation are set to favor customer type A.
+Dealership ï¿½Chicago Buickï¿½ uses uniform probability to draw a lottery ticket number. The range is 1 to 40. Therefore there are more numbers than people and vehicles and some numbers are loosing numbers. 
+ï¿½Glen Ellyn Chevroletï¿½ uses exponential probability. The average is set to favor customers in categories A and B. Remember the position of the customer objects and their types in file People.ser.and their lottery tickets numbers that have been given to them.
+ï¿½Saturn of North Chicagoï¿½ uses Gaussian (normal) probability and the average and the standard deviation is set to favor people of type D and E.
+ï¿½South Suburbs Pontiacï¿½ uses uniform probability to draw numbers out of a pool of 20 numbers (1-20).
+ï¿½Schaumburg Cadillacï¿½ uses Gaussian (normal) probability. The average and standard deviation are set to favor customer type A.
 The following information is used to create Dealership objects which are then recorded in serializable format in the Dealership.ser file in the order given (name of dealership and the manufacturer of the vehicle that it sells):
-“Glen Ellyn Chevrolet”,    CHEVROLET
-“South Suburbs Pontiac”,   PONTIAC
-“Chicago Buick”,   BUICK
-“Schaumburg Cadillac”,  CADILLAC
-“Saturn of North Chicago”,  SATURN
+ï¿½Glen Ellyn Chevroletï¿½,    CHEVROLET
+ï¿½South Suburbs Pontiacï¿½,   PONTIAC
+ï¿½Chicago Buickï¿½,   BUICK
+ï¿½Schaumburg Cadillacï¿½,  CADILLAC
+ï¿½Saturn of North Chicagoï¿½,  SATURN
 Note that in the program you can use numbers to represent the dealerships. Thus,
 1 is Glen Ellyn Chevrolet
 2 is South Suburbs Buick 
@@ -175,9 +175,9 @@ Then the upper limit for the un iform probability function is = timecount+100 an
 Therefore we determine the  time for the new lottery event:
 newtimecount=(int)(timecount+Math.random()*(100));
 Our structure then for allowing the event to occur would be:
-if(timecount==newtimecount) {………………………….}
+if(timecount==newtimecount) {ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½.}
 timecount will keep counting the event will take place when the count of timecount reaches the expected event time newtimecount. Notice that we assume that the event (lottery process) happens in zero time. 
-Up to 10 lottery times can be issued (for the 10 cars) provided that there were no loosing numbers and no duplicated numbers issued. The lottery process is repeated until all 10 cars have been given away. Again, remember that because a customer can’t win more than once and also because non winning numbers can be chosen (there are 45 possible ticket numbers but only 25 have been issued), it is very possible that the number of EVENTS can be greater than 10 (extremely unlikely that the events will be exactly 10).
+Up to 10 lottery times can be issued (for the 10 cars) provided that there were no loosing numbers and no duplicated numbers issued. The lottery process is repeated until all 10 cars have been given away. Again, remember that because a customer canï¿½t win more than once and also because non winning numbers can be chosen (there are 45 possible ticket numbers but only 25 have been issued), it is very possible that the number of EVENTS can be greater than 10 (extremely unlikely that the events will be exactly 10).
 Therefore the lottery process gets repeated when:
 There is no customer that holds the particular ticket number.
 The ticket number was issued earlier and a car was awarded (no customer can win more than once).
@@ -193,7 +193,7 @@ The selected dealership by GM for this event.
 The type of probability that the selected dealership is going to use to draw a winning ticket.
 The lottery ticket number drawn.
 Indicate if the number is a winning number or if it is a losing number. If the number has been awarded previously then it is not a winning number.
-If it is a winning number indicate the winning customer’s information i.e.first name , last name etc.
+If it is a winning number indicate the winning customerï¿½s information i.e.first name , last name etc.
 The total price of all cars awarded thus far if the ticket is a winning ticket. 
   In a text file called Output.txt:
 The output should be written as shown below:
@@ -203,9 +203,9 @@ The id of the customer that received the vehicle.
 The dealership that awarded the vehicle.
 Use one line for each set of the above data by creating a table using tabs (/t).
 At the bottom of the file write also:
-“The exception: MatchNotFoundException was thrown _____  times” (list the number of tiems the exception was thrown in the blank)
+ï¿½The exception: MatchNotFoundException was thrown _____  timesï¿½ (list the number of tiems the exception was thrown in the blank)
 
-“The exception: RepeatNumberException was thrown _____  times” (list the number of times the exception was thrown in the blank)
+ï¿½The exception: RepeatNumberException was thrown _____  timesï¿½ (list the number of times the exception was thrown in the blank)
 
 
 ### GRADING INSTRUCTIONS
@@ -214,7 +214,7 @@ In order to receive a full grade for the design and the coding of this project y
 1. Must have 3 enumerations and 2 exceptions classes.
 2. Must have 3 service classes each representing one of the 3 major categories described in the specification document. These classes must have inherited the proper library class!
 3. You must have3 separate classes (one for each category  in item 2 above) whose job is to provide the functionality :
-- Create and save the corresponding category’s object in the .ser file.
+- Create and save the corresponding categoryï¿½s object in the .ser file.
 - Reads the .ser file for that category.
 4. The project requires implementation of multiple inheritance using the technique described in TASK 1 of Lab 6. Therefore 2 Interfaces are needed for the 3 classes described in item 3 above. The interfaces have methods similar to the methods in item 3 that get implemented by the corresponding Impl classes. 
 5. Two Impl classes that implement the methods of the 2 interfaces described in item 4. Notice that these 2 classes need to also inherit the 2 out of the 3 classes in item 3 above. 
