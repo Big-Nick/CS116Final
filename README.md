@@ -2,6 +2,8 @@
 
 ## Example final project for a Java class I both took and was a teaching assistant for
 
+Meant to help students showcase proficiency in OOP concepts. These ranged from simple class and function building, to inheritance, polymorphism, abstraction, interfaces, data encoding/transformation/extraction, packaging, and recursion.
+
 ![A really bad, but pretty standard example of a project diagram.](https://github.com/Big-Nick/CS116Final/blob/master/Diagram%20tree.jpg?raw=true "Why are there no arrows? \n Hint, main is in LotterySimulator")
 
 ### Requirements
