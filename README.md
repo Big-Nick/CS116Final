@@ -3,7 +3,7 @@
 ##Example final project for a Java class I both took and was a teaching assistant for.
 
 
-![Why are there no arrows???](https://github.com/Big-Nick/CS116Final/blob/master/Diagram%20tree.jpg?raw=true)
+![A really bad, but pretty standard example of a project diagram.](https://github.com/Big-Nick/CS116Final/blob/master/Diagram%20tree.jpg?raw=true "Why are there no arrows?")
 
 ###Requirements
 - Multiple examples of inheritance
